@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="zAGh@`W{mX:|GJiD#kG1" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="rI.j=X@[k$%M~418_i9x"><mutation elseif="1" else="1"/><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="r,TF3txs)!!DVf1I05[^"><field name="OP">LT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_acceleration" id="/NO,pDZPg#)z%f8i%O+y"><field name="NAME">Dimension.Y</field></block></value><value name="B"><shadow type="math_number" id="?jE@ip7IRaje2MY{]8y+"><field name="NUM">-100</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="S_ekH1fF`O#uIR/]F(gu"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="bAx#TlmwK5m^HZS,n^v@"><field name="OP">GT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_acceleration" id="Xqbh!c?8ho7L2K5nwq#S"><field name="NAME">Dimension.Y</field></block></value><value name="B"><shadow type="math_number" id="8OnZ!=o,/36ng=B3K`zi"><field name="NUM">100</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="B-psZY|0Oc,%~V9WK#_n"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="yd(QmZFO2:?y+X+U$Qd]"><field name="LEDS">`
+        . . . . . 
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        . # . . .
+        `</field></block></statement></block></statement></block></xml>
